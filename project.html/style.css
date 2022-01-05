@@ -1,0 +1,92 @@
+body{
+    bacground-color:rgb(39, 36, 36);
+    background-image:url("26293.jpg");
+    background-repeat: repeat;
+    background-size: 1600px;
+    /* width: 100%; */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 50px 100px;
+    padding: 10px;
+    align-content: center;
+    height: 400px;
+}
+.button {
+    background-color: #1451ac; /* Green */
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.card-header {
+    text-align: center;
+    color: rgb(13, 139, 197);
+    text-transform: uppercase;
+    word-spacing: 10px;
+    font-size: 60px;
+}
+.Selected-Variable{
+    text-align: left;
+    font-size: 40px;
+    color: rgb(25, 110, 206);
+}
+.container1 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-column: 1;
+    grid-gap: 50px 100px;
+    padding: 10px;
+    align-content: center;
+    height: 400px;
+}
+.Dice {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.Score {
+    font-size: 40px;
+    color: rgb(40, 117, 231);
+}
+.butn {
+    background-color: #882b94;
+    border: none;
+    outline: none;
+    color: #000000;
+    padding: 15px 0;
+    width: 150px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.board {
+    display: flex; 
+    justify-content: space-between;
+}
+.container2 {
+    height: 100px;
+}
+
+.shake{
+    animation: shake 3s infinite;
+}
+@keyframes shake{
+    0%{
+        transform: rotate(15deg);
+    }
+    50%{
+        transform: rotate(-15deg);
+    }
+    100%{
+        transform: rotate(15deg);
+    }
+}
